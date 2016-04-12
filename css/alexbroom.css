@@ -1,0 +1,46 @@
+html {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #EEE;
+	color: #111;
+}
+
+h1,h2,h3 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: #458B00;
+	text-decoration: underline;
+}
+
+#title {
+	margin: 15% 10% 10% 10%;
+	text-align: center;
+}
+#title h1 {
+	margin-bottom: 0;
+}
+#title h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #551A8B;
+}
+#title h3 {
+	margin-top: 0;
+	color: #666;
+}
+#title #portrait {
+	width: 12em;
+	height: 12em;
+}
