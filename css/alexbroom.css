@@ -60,5 +60,10 @@ a:hover {
 }
 
 #content {
-	background-color: #111;
+	padding: 1em;
+	background-color: #EEE;
+}
+#content #about #blurb {
+	font-style: italic;
+	font-weight: bold;
 }
