@@ -20,12 +20,10 @@ p {
 }
 
 a {
-	color: #310EBF;
-	text-decoration: none;
+	color: #551A8B;
 }
 a:hover {
-	color: #551A8B;
-	text-decoration: underline;
+	color: #310EBF;
 }
 
 .bubble-list {
@@ -54,6 +52,25 @@ a:hover {
 }
 .bubble-list .new {
 	background-color: #E9DAF6;
+}
+
+.button-holder {
+	text-align: center;
+	line-height: 4em;
+}
+.button {
+	margin: 0.5em;
+	padding: 0.5em;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-decoration: none;
+	color: #e7d4f7;
+	border-radius: 1em;
+	background-color: #551A8B;
+}
+.button:hover {
+	color: #d8d0fb;
+	background-color: #310EBF;
 }
 
 #title-background {
@@ -95,7 +112,7 @@ a:hover {
 #content div {
 	padding: 1em;
 }
-#content div:nth-child(odd) {
+#content > div:nth-child(even) {
 	background-color: #DDD;
 }
 #content #about #blurb {
